@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         // Crear un collar y un perro
         Collar collar = new Collar("rojo");
-        Perro perro = new Perro("Rocky", collar);
+        Perro perro = new Perro("Ronaldo nazario", collar);
 
         // Crear un gato
-        Gato gato = new Gato("Michi");
+        Gato gato = new Gato("Misifu");
 
         // Crear una veterinaria
         Consultorio consultorio = new Consultorio("Av. Central 123");
@@ -25,7 +25,7 @@ public class Main {
         a.sonido();
 
         // Casting
-        Animal animal = new Perro("Bobby", new Collar("azul"));
+        Animal animal = new Perro("leo pessi", new Collar("azul"));
         if (animal instanceof Perro) {
             Perro p = (Perro) animal;
             p.moverCola();
